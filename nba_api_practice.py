@@ -8,7 +8,7 @@ from matplotlib import pyplot as plt
 
 data = endpoints.leagueleaders.LeagueLeaders()
 df = data.league_leaders.get_data_frame()
-# print(df.head())
+# print(df.head()) 
 # print(df.head())
 
 # x variable is player's field goal attempts/ games played
