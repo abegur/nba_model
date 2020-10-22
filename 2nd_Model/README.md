@@ -2,12 +2,12 @@
 
 ## Data Mining (How I effeciently got season data)
 defintion of data mining and how it applies
-include getData
+### getData
+Retrieves all scratch data using the NBA API
 
 ## Feature Engineering
 definition of feature engineering and how it applies
-### getData
-Retrieves all scratch data using the NBA API
+
 
 ### findAvgs
 Finds the ten day rolling average for each team for each game in each attribute
@@ -18,7 +18,7 @@ Combines rows for teams that play against each other and sorts the rows based on
 ### get_zscores
 Calculates zscores for each team + fits data to linear regression and decision tree model
 
-# Model: currently have a model that operates better than random and what we want to do in the future
-## Data Visualization
+## Model: currently have a model that operates better than random and what we want to do in the future
+### Data Visualization
 
 
