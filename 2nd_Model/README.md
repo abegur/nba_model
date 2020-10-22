@@ -1,4 +1,6 @@
-# NBA FORECAST MODEL: 
+# NBA FORECAST MODEL:  ![NBA Logo](/images/logo.png)
+Format: ![Alt Text](https://a4.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Fnba.png)
+
 Creates and develops from scratch a data-mining pipeline that utilizes the NBA API to deploy a linear regression and decision tree model for NBA game predictions
 
 ## Data Mining:
