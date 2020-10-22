@@ -1,4 +1,5 @@
-# NBA FORECAST MODEL: Creates and develops from scratch a data-mining pipeline that utilizes the NBA API to deploy a linear regression and decision tree model for NBA game predictions
+# NBA FORECAST MODEL: 
+Creates and develops from scratch a data-mining pipeline that utilizes the NBA API to deploy a linear regression and decision tree model for NBA game predictions
 
 ## Data Mining:
 Data Mining: data mining is defined as a process used to extract usable data from a larger set of any raw data.
