@@ -1,12 +1,15 @@
 # NBA FORECAST MODEL: Creates and develops from scratch a data-mining pipeline that utilizes the NBA API to deploy a linear regression and decision tree model for NBA game predictions
 
 ## Data Mining (How I effeciently got season data)
-defintion of data mining and how it applies
+Data Mining: data mining is defined as a process used to extract usable data from a larger set of any raw data.
 ### getData
-Retrieves all scratch data using the NBA API
+By utilzing the NBA API, my model retrives a particular NBA season's data for each team and places it into a pandas dataframe with respective stats for each game played. Attributes include:  
+    - SEASON_ID,	TEAM_ID, TEAM_ABBREVIATION,	TEAM_NAME,	GAME_ID,	GAME_DATE,	MATCHUP,	WL,	MIN,	PTS,	FGM, FGA,	FG_PCT,	FG3M,	FG3A,	FG3_PCT,	FTM,	FTA,	FT_PCT,	OREB,	DREB,	REB,	AST,	STL,	BLK,	TOV,	PF,	PLUS_MINUS
+For organization purposes, my model exports this as a csv for further reference. 
 
 ## Feature Engineering
 definition of feature engineering and how it applies
+Feature engineering: the process of transforming raw data into features that better represent the underlying problem to the predictive models, resulting in improved model accuracy on unseen data.
 
 
 ### findAvgs
