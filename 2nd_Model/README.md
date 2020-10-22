@@ -3,8 +3,9 @@
 ## Data Mining (How I effeciently got season data)
 Data Mining: data mining is defined as a process used to extract usable data from a larger set of any raw data.
 ### getData
-By utilzing the NBA API, my model retrives a particular NBA season's data for each team and places it into a pandas dataframe with respective stats for each game played. Attributes include:  
+By utilzing the NBA API, my model retrieves a particular NBA season's data for each team and places it into a pandas dataframe with respective stats for each game played. Attributes include:  
     - SEASON_ID,	TEAM_ID, TEAM_ABBREVIATION,	TEAM_NAME,	GAME_ID,	GAME_DATE,	MATCHUP,	WL,	MIN,	PTS,	FGM, FGA,	FG_PCT,	FG3M,	FG3A,	FG3_PCT,	FTM,	FTA,	FT_PCT,	OREB,	DREB,	REB,	AST,	STL,	BLK,	TOV,	PF,	PLUS_MINUS
+
 For organization purposes, my model exports this as a csv for further reference. 
 
 ## Feature Engineering
