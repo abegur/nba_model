@@ -23,8 +23,8 @@ This function, essentially, calculates the rolling averages for each feature for
 Combines rows for teams that play against each other and sorts the rows based on game date
 This portion utilizes the csv created in findAvgs and joins games based on the primary key of GAME_ID. I, then, delete all duplicates to eliminate redundancy. As a result I create another pandas dataframe with each game played along with their opponent and export it as a csv.
 
-TEAM_ID_A	TEAM_ABBREVIATION_A	TEAM_NAME_A	GAME_ID	GAME_DATE	MATCHUP_A	WL_A	MIN_A	AV_PTS_A	AV_FGM_A	...	AV_FT_PCT_B	AV_OREB_B	AV_DREB_B	AV_REB_B	AV_AST_B	AV_STL_B	AV_BLK_B	AV_TOV_B	AV_PF_B	AV_PLUS_MINUS_B
-2281	1610612766	CHA	Charlotte Hornets	21900909	2020-03-03	CHA vs. SAS	L	240	97.2	35.7	...	0.8024	8.0	32.0	40.0	24.2	8.0	4.2	10.6	18.7	-8.3
+    - TEAM_ID_A	TEAM_ABBREVIATION_A	TEAM_NAME_A	GAME_ID	GAME_DATE	MATCHUP_A	WL_A	MIN_A	AV_PTS_A	AV_FGM_A	...	AV_FT_PCT_B	AV_OREB_B	AV_DREB_B	AV_REB_B	AV_AST_B	AV_STL_B	AV_BLK_B	AV_TOV_B	AV_PF_B	AV_PLUS_MINUS_B
+    2281	1610612766	CHA	Charlotte Hornets	21900909	2020-03-03	CHA vs. SAS	L	240	97.2	35.7	...	0.8024	8.0	32.0	40.0	24.2	8.0	4.2	10.6	18.7	-8.3
 
 ### get_zscores
 Calculates zscores for each team + fits data to linear regression and decision tree model
