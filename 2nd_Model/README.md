@@ -2,7 +2,7 @@
 
 Creates and develops from scratch a data-mining pipeline that utilizes the NBA API to deploy a linear regression and decision tree model for NBA game predictions
 
-## Data Mining: <img src="https://22570l2e793j2oo9c81ug2nh-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/text-analytics-mining-data.png" width="300" height="200"/>
+## Data Mining:                     <img src="https://22570l2e793j2oo9c81ug2nh-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/text-analytics-mining-data.png" width="200" height="200"/>
 
 Data Mining: data mining is defined as a process used to extract usable data from a larger set of any raw data.
 ### getData
@@ -12,7 +12,7 @@ By utilzing the NBA API, my model retrieves a particular NBA season's data for e
 
 For organization purposes, my model exports this as a csv for further reference. 
 
-## Feature Engineering: <img src="https://miro.medium.com/max/1200/1*K6ctE0RZme0cqMtknrxq8A.png" width="300" height="200"/>
+## Feature Engineering:                     <img src="https://miro.medium.com/max/1200/1*K6ctE0RZme0cqMtknrxq8A.png" width="200" height="200"/>
 
 Feature engineering: the process of transforming raw data into features that better represent the underlying problem to the predictive models, resulting in improved model accuracy on unseen data.
 
