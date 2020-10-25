@@ -25,7 +25,6 @@ Dataframe:
     2619	22017	1610612766	CHA	Charlotte Hornets	21701143	2018-04-01	CHA vs. PHI	L	240	102	...	0.7810	10.6	38.5	49.1	21.0	6.2	3.9	12.0	14.8	2.4
 
 ### combine_Teams
-Combines rows for teams that play against each other and sorts the rows based on game date
 This portion utilizes the csv created in findAvgs and joins games based on the primary key of GAME_ID. I, then, delete all duplicates to eliminate redundancy. As a result I create another pandas dataframe with each game played along with their opponent and export it as a csv.
 
 Dataframe: 
@@ -47,7 +46,38 @@ Dataframe:
     - 	WL	PTS	FGM	FGA	FG_PCT	FG3M	FG3A	FG3_PCT	FTM	FTA	FT_PCT	OREB	DREB	REB	AST	STL	BLK	TOV	PF	PLUS_MINUS
     146	0.0	-15.100000000000000	-1.6000000000000000	-1.7000000000000000	-0.006200000000000090	-4.900000000000000	-12.300000000000000	-0.01420000000000000	-7.0	    -7.300000000000000	-0.04819999999999990	-0.7000000000000010	-1.5	-2.2000000000000000	-0.8000000000000010	1.2000000000000000	-0.5	        -2.700000000000000	0.0	0.8
 
-## Model: currently have a model that operates better than random and what we want to do in the future
+## Model:
+Currently: Have a model that operates better than random 
+Logistic Regression: 
+
+    - Coefficient Information:
+    PTS: 0.11508870418272563
+    FGM: -0.09514096621197392
+    FGA: -0.12218154180465549
+    FG3_PCT: -1.0604111394379243
+    FTA: -0.09085012100683548
+    REB: 0.1284208148426271
+    AST: -0.006881641759073735
+    STL: 0.14569096540116291
+    TOV: -0.10956681097691838
+    ----------------------------------
+    Accuracy: 0.6157575757575757
+    Precision: 0.6473779385171791
+    Recall: 0.7458333333333333
+    ----------------------------------
+    Confusion Matrix:
+    [[150 195]
+    [122 358]]
+    
+Decision Tree: 
+
+    - 0.5975757575757575
+          L    W
+    True L  136  211
+    True W  121  357
+
+    
+Future: Create a function that determines which teams are playing today and give the probability of the home team winning based on the above features. 
 ### Data Visualization
 
 
